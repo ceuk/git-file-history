@@ -2,6 +2,9 @@
 
 Git File History is a lightweight, standalone tool that allows you to view all commits affecting a specific file.
 
+![image](https://github.com/user-attachments/assets/5b5b890d-3da4-430c-a6d5-0dd94886b001)
+
+
 ## Features
 
 - View commit history for a specific file.
@@ -11,6 +14,7 @@ Git File History is a lightweight, standalone tool that allows you to view all c
 
 ```sh
 go install github.com/ceuk/git-file-history@latest
+npm i -g git-split-diffs
 ```
 
 ## Usage
