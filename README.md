@@ -12,10 +12,20 @@ Git File History is a lightweight, standalone tool that allows you to view all c
 
 ## Installation
 
+### Via the Go toolchain
+
 ```sh
 go install github.com/ceuk/git-file-history@latest
 npm i -g git-split-diffs
 ```
+
+### Manually
+
+Download the latest release from the [releases page](https://github.com/ceuk/git-file-history/releases).
+
+### Arch (AUR)
+
+Install the `git-file-history` package from the AUR.
 
 ## Usage
 
