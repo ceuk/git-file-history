@@ -63,7 +63,7 @@ func getGitCommits(filePath string) ([]list.Item, error) {
 
 func getGitDiff(commit, filePath string) (string, error) {
 	cmd := fmt.Sprintf("git show %s -- %s | git-split-diffs --color | sed '/─/,$!d' | tail -n +5", commit, filePath)
-	output, err := exec.Command("zsh", "-c", cmd).Output()
+	output, err := exec.Command(os.Getenv("SHELL"), "-c", cmd).Output()
 	if err != nil {
 		return "", err
 	}
